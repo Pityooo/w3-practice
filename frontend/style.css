@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* end of css reset */
+
+body {
+    background-color: #000000;
+}
+
+div {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #2D0036;
+}
+
+div > div {
+    width: 380px;
+    height: 380px;
+    background-color: #3C0047;
+}
+
+div > div > div {
+    width: 360px;
+    height: 360px;
+    background-color: #480057;
+}
+
+div > div > div > div {
+    width: 340px;
+    height: 340px;
+    background-color: #530063;
+}
+
+div > div > div > div > div {
+    width: 320px;
+    height: 320px;
+    background-color: #620075;
+}
+
+div > div > div > div > div > div {
+    width: 300px;
+    height: 300px;
+    background-color: #77008F;
+}
+
+div > div > div > div > div > div > div {
+    width: 280px;
+    height: 280px;
+    background-color: #8800A3;
+}
+
+div > div > div > div > div > div > div > div {
+    width: 260px;
+    height: 260px;
+    background-color: #9B00BA;
+}
+
+div > div > div > div > div > div > div > div > div {
+    width: 240px;
+    height: 240px;
+    background-color: #AE00D1;
+}
+
+div > div > div > div > div > div > div > div > div > div {
+    width: 220px;
+    height: 220px;
+    background-color: #C400EB;
+}
