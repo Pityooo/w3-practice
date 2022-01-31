@@ -36,7 +36,7 @@ select {
 /* end of css reset */
 
 body {
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 
 div {
@@ -47,9 +47,9 @@ div {
 }
 
 #cube1 {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 div > div {
@@ -107,7 +107,29 @@ div > div > div > div > div > div > div > div > div > div {
 }
 
 #cube7 {
-    position: fixed;
-    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#cube10 {
+    position: absolute;
     top: 0;
+    left: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid darkblue;
+}
+
+section button {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 200px;
+    height: 60px;
+    background-color: crimson;
 }
