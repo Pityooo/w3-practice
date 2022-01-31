@@ -40,13 +40,16 @@ body {
 }
 
 div {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    position: absolute;
+    margin: auto;
     width: 400px;
     height: 400px;
     background-color: #2D0036;
+}
+
+#cube1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
 
 div > div {
@@ -101,4 +104,10 @@ div > div > div > div > div > div > div > div > div > div {
     width: 220px;
     height: 220px;
     background-color: #C400EB;
+}
+
+#cube7 {
+    position: fixed;
+    left: 0;
+    top: 0;
 }
