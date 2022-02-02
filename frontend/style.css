@@ -49,7 +49,7 @@ section.bg-image {
     overflow: hidden;
 }
 
-section.bg-image img {
+#welcome img {
     display: block;
     position: absolute;
     z-index: -1;
@@ -60,8 +60,9 @@ section.bg-image img {
     object-fit: cover;
 }
 
-section.bg-image h1 {
-    margin: 40px;
+#welcome h1 {
+    margin-top: 400px;
+    margin-left: 40px;
     font-size: 100px;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -69,7 +70,7 @@ section.bg-image h1 {
     text-transform: uppercase;
 }
 
-section.bg-image button {
+#welcome button {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -96,7 +97,7 @@ section.background-holder {
 #about {
     min-height: unset;
     padding: 60px 0;
-    background-image: url(https://images.pexels.com/photos/3265460/pexels-photo-3265460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/615304/young-plant-green-pot-615304.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
     background-size: cover;
     text-shadow: rgb(10, 42, 78) 1px 1px 5px;
 }
@@ -115,7 +116,7 @@ section.background-holder {
 
 #services {
     padding: 60px 0;
-    background-image: url(https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/39479/fresh-peppers-farmers-market-open-air-green-39479.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
     background-size: cover;
 }
 
@@ -125,7 +126,7 @@ section.background-holder {
     padding: 20px;
     margin: 0px auto;
     list-style: none;
-    background-color: rgb(218, 218, 218,0.2);
+    background-color: rgb(218, 218, 218,0.5);
 }
 
 #services ul li {
