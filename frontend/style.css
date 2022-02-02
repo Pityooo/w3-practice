@@ -36,41 +36,147 @@ select {
 /* end of css reset */
 
 body {
-    background-color: #949292;
+    font-family: 'Hind', sans-serif;
+    background-color: rgb(54, 124, 70);
 }
 
 section {
     min-height: 100vh;
 }
 
-section img {
-    display: block;
+section.bg-image {
     height: 100vh;
+    overflow: hidden;
+}
+
+section.bg-image img {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
     width: 100%;
-    object-fit: contain;
+    height: 100vh;
+    object-fit: cover;
 }
 
-button {
-    background-color: #00d6b3;
-    border: none;
+section.bg-image h1 {
+    margin: 40px;
+    font-size: 100px;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: rgb(0, 140, 150) 2px 2px 2px;
+    text-transform: uppercase;
 }
 
-#text {
-    color: white
+section.bg-image button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 40px 0;
+    transform: translateX(-50%);
+    background-color: #09CED9;
+    box-shadow: rgb(0, 0, 0, 0.2) 0px 0px 8px 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 section.background-holder {
-    padding: 20px;
-    border: 10px solid rgba(15, 80, 95, 0.5);
     background-clip: padding-box;
     background-color: tomato;
-    background-image: url("pic.jpg");
     background-size: 200px auto;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+#about {
+    min-height: unset;
+    padding: 60px 0;
+    background-image: url(https://images.pexels.com/photos/3265460/pexels-photo-3265460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    text-shadow: rgb(10, 42, 78) 1px 1px 5px;
+}
+
+#about article {
+    width: 100%;
+    max-width: 400px;
+    padding: 80px 20px;
+    margin: 0px auto;
+    color: white
+}
+
+#about h2 {
+    padding-bottom: 20px;
+}
+
+#services {
+    padding: 60px 0;
+    background-image: url(https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+}
+
+#services ul {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0px auto;
+    list-style: none;
+    background-color: rgb(218, 218, 218,0.2);
+}
+
+#services ul li {
+    padding-bottom: 10px;
+}
+
+#services ul li h2,
+#services ul li p {
+    text-align: center;
+    color: white;
+    text-shadow: rgb(56, 56, 56) 1px 1px 1px;
+}
+
+#contact {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: rgb(54, 124, 70);
+    min-height: unset;
+}
+
+#contact input,
+#contact label {
+    display: block;
+    width: 100%;
+}
+
+#contact label{
+ font-size: 12px;
+ padding-bottom: 10px;   
+}
+
+#contact input{
+    height: 60px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: rgb(226, 226, 226);
+   }
+
+#contact button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 40px 0;
+    background-color: rgb(114, 190, 133);
+    box-shadow: rgb(0, 0, 0, 0.2) 0px 0px 8px 5px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    font-family: 'Hind', sans-serif;
+    text-transform: uppercase;
 }
