@@ -35,9 +35,24 @@ select {
 
 /* end of css reset */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Hind', sans-serif;
     background-color: rgb(54, 124, 70);
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 99;
+    text-align: center;
+    background-color: rgb(54, 124, 70, 0.8);
 }
 
 section {
